@@ -1,0 +1,4 @@
+C:\GitHub\Payslip\PayslipApp\PayslipApp.ViewModel\bin\Debug\PayslipApp.ViewModel.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.ViewModel\bin\Debug\PayslipApp.ViewModel.pdb
+C:\GitHub\Payslip\PayslipApp\PayslipApp.ViewModel\obj\Debug\PayslipApp.ViewModel.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.ViewModel\obj\Debug\PayslipApp.ViewModel.pdb

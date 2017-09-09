@@ -1,0 +1,5 @@
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Repository\bin\Debug\PayslipApp.Repository.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Repository\bin\Debug\PayslipApp.Repository.pdb
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Repository\obj\Debug\PayslipApp.Repository.csprojResolveAssemblyReference.cache
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Repository\obj\Debug\PayslipApp.Repository.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Repository\obj\Debug\PayslipApp.Repository.pdb

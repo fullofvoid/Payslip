@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayslipApp.Repository", "PayslipApp.Repository\PayslipApp.Repository.csproj", "{5F534487-B455-4439-AF3B-438CB4D618FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayslipApp.Service", "PayslipApp.Service\PayslipApp.Service.csproj", "{89A97246-F201-4B24-B248-0792A80F5641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayslipApp.ViewModel", "PayslipApp.ViewModel\PayslipApp.ViewModel.csproj", "{AA9B031E-1604-4C79-ADF7-FCF0C9AFA7DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayslipApp.ConsoleApp", "PayslipApp.ConsoleApp\PayslipApp.ConsoleApp.csproj", "{75CCAF00-FDEE-473A-9400-4BC7777B6BE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayslipApp.Service.Test", "PayslipApp.Service.Test\PayslipApp.Service.Test.csproj", "{614E37B5-65C0-4CFF-BA5C-B1290897098D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F534487-B455-4439-AF3B-438CB4D618FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F534487-B455-4439-AF3B-438CB4D618FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F534487-B455-4439-AF3B-438CB4D618FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F534487-B455-4439-AF3B-438CB4D618FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A97246-F201-4B24-B248-0792A80F5641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A97246-F201-4B24-B248-0792A80F5641}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A97246-F201-4B24-B248-0792A80F5641}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A97246-F201-4B24-B248-0792A80F5641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9B031E-1604-4C79-ADF7-FCF0C9AFA7DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9B031E-1604-4C79-ADF7-FCF0C9AFA7DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9B031E-1604-4C79-ADF7-FCF0C9AFA7DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9B031E-1604-4C79-ADF7-FCF0C9AFA7DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75CCAF00-FDEE-473A-9400-4BC7777B6BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75CCAF00-FDEE-473A-9400-4BC7777B6BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75CCAF00-FDEE-473A-9400-4BC7777B6BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75CCAF00-FDEE-473A-9400-4BC7777B6BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614E37B5-65C0-4CFF-BA5C-B1290897098D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614E37B5-65C0-4CFF-BA5C-B1290897098D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614E37B5-65C0-4CFF-BA5C-B1290897098D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614E37B5-65C0-4CFF-BA5C-B1290897098D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

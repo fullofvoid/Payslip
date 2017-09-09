@@ -1,0 +1,16 @@
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\obj\Debug\PayslipApp.Service.Test.csprojResolveAssemblyReference.cache
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\PayslipApp.Service.Test.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\PayslipApp.Service.Test.pdb
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\Castle.Core.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\Moq.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\PayslipApp.Repository.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\PayslipApp.Service.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\PayslipApp.ViewModel.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\PayslipApp.Repository.pdb
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\PayslipApp.Service.pdb
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\PayslipApp.ViewModel.pdb
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\Moq.pdb
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\bin\Debug\Moq.xml
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\obj\Debug\PayslipApp.Service.Test.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service.Test\obj\Debug\PayslipApp.Service.Test.pdb

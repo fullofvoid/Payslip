@@ -1,0 +1,9 @@
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service\bin\Debug\PayslipApp.Service.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service\bin\Debug\PayslipApp.Service.pdb
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service\bin\Debug\PayslipApp.ViewModel.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service\bin\Debug\PayslipApp.ViewModel.pdb
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service\obj\Debug\PayslipApp.Service.csprojResolveAssemblyReference.cache
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service\obj\Debug\PayslipApp.Service.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service\obj\Debug\PayslipApp.Service.pdb
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service\bin\Debug\PayslipApp.Repository.dll
+C:\GitHub\Payslip\PayslipApp\PayslipApp.Service\bin\Debug\PayslipApp.Repository.pdb
