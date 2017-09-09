@@ -4,21 +4,21 @@ namespace PayslipApp.Service
     public class TaxCalculater: ITaxCalculater
     {
 
-        public static readonly TaxBracket[] TaxBrakets = new TaxBracket[]
+        public static readonly TaxBracket[] TaxBrackets = new TaxBracket[]
             {
-                new TaxBracket() {BraketStart = 180000, TaxRate = 0.45M, PreBracketTax = 54547 },
-                new TaxBracket() {BraketStart = 80000,  TaxRate = 0.37M, PreBracketTax = 17547 },
-                new TaxBracket() {BraketStart = 37000,  TaxRate = 0.325M,PreBracketTax = 3572 },
-                new TaxBracket() {BraketStart = 18200,  TaxRate = 0.19M, PreBracketTax = 0 }
+                new TaxBracket() {BracketStart = 180000, TaxRate = 0.45M, PreBracketTax = 54547 },
+                new TaxBracket() {BracketStart = 80000,  TaxRate = 0.37M, PreBracketTax = 17547 },
+                new TaxBracket() {BracketStart = 37000,  TaxRate = 0.325M,PreBracketTax = 3572 },
+                new TaxBracket() {BracketStart = 18200,  TaxRate = 0.19M, PreBracketTax = 0 }
             };
 
         public decimal CalculateIncomeTax(int anualSalary)
         {
-            foreach (var taxBraket in TaxBrakets)
+            foreach (var taxBracket in TaxBrackets)
             {
-                if (anualSalary > taxBraket.BraketStart)
+                if (anualSalary > taxBracket.BracketStart)
                 {
-                    return (taxBraket.PreBracketTax +((anualSalary - taxBraket.BraketStart)* taxBraket.TaxRate));
+                    return (taxBracket.PreBracketTax +((anualSalary - taxBracket.BracketStart)* taxBracket.TaxRate));
                 }
             }
             return 0;
@@ -27,7 +27,7 @@ namespace PayslipApp.Service
     }
     public class TaxBracket
     {
-        public decimal BraketStart { get; set; }
+        public decimal BracketStart { get; set; }
         public decimal TaxRate { get; set; }
         public decimal PreBracketTax { get; set; }
     }
