@@ -10,7 +10,7 @@ namespace PayslipApp.Repository.Model
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public int AnualSalary { get; set; }
+        public int AnnualSalary { get; set; }
         public decimal SuperRate { get; set; }
         public string Payperiod { get; set; }
     }

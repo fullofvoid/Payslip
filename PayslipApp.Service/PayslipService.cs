@@ -12,11 +12,13 @@ namespace PayslipApp.Service
     public class PayslipService
     {
         public const int NumberOfMonthInYear = 12;
-        private EmployeeDetailRepo _repo;
+        private IEmployeeDetailRepo _repo;
+        private ITaxCalculater _taxCalculater;
 
-        public PayslipService(EmployeeDetailRepo repo)
+        public PayslipService(IEmployeeDetailRepo repo, ITaxCalculater taxCalculater)
         {
             _repo = repo;
+            _taxCalculater = taxCalculater;
         }
 
         public IEnumerable<PayslipInfoViewModel> GeneratePayslips()
@@ -35,17 +37,13 @@ namespace PayslipApp.Service
             var payslip = new PayslipInfoViewModel();
             payslip.Name = $"{employeeDetail.FirstName} {employeeDetail.LastName}";
             payslip.Payperiod = employeeDetail.Payperiod;
-            payslip.GrossIncome = Round(employeeDetail.AnualSalary/NumberOfMonthInYear);
-            payslip.IncomeTax = Round(CalculateIncomeTax(employeeDetail.AnualSalary));
+            payslip.GrossIncome = Round(employeeDetail.AnnualSalary/ NumberOfMonthInYear);
+            payslip.IncomeTax = Round(_taxCalculater.CalculateIncomeTax(employeeDetail.AnnualSalary) / NumberOfMonthInYear);
             payslip.NetIncome = payslip.GrossIncome - payslip.IncomeTax;
             payslip.Super = Round(payslip.GrossIncome*employeeDetail.SuperRate/100);
             return payslip;
         }
-
-        private decimal CalculateIncomeTax(int anualSalary)
-        {
-            throw new NotImplementedException();
-        }
+        
 
         private int Round(decimal v)
         {

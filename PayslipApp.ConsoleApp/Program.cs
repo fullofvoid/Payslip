@@ -2,7 +2,9 @@
 using PayslipApp.Service;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,11 +15,20 @@ namespace PayslipApp.ConsoleApp
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to payslip app. Please enter file name to process");
-            string inputFileName = @"C:\GitHub\Payslip\PayslipApp\Inputdata.csv";
-            var service = new PayslipService(new EmployeeDetailRepo(inputFileName));
-            var payslips = service.GeneratePayslips();
-            PrintPayslips(payslips);
+            //string inputFileName = @"C:\GitHub\Payslip\Payslip\Inputdata.csv";
+            var inputFileName = Console.ReadLine();
 
+            if (File.Exists(inputFileName))
+            {
+                var service = new PayslipService(
+                    new EmployeeDetailRepo(inputFileName), new TaxCalculater());
+                var payslips = service.GeneratePayslips();
+                PrintPayslips(payslips);
+            }
+            else
+            {
+                Console.WriteLine("Sorry file does not exist");
+            }
             Console.WriteLine();
             Console.WriteLine("Please press enter to exit");
             Console.ReadLine();

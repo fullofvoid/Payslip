@@ -1,13 +1,15 @@
-﻿using PayslipApp.Repository.Model;
+﻿using CsvHelper;
+using PayslipApp.Repository.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace PayslipApp.Repository
 {
-    public class EmployeeDetailRepo
+    public class EmployeeDetailRepo: IEmployeeDetailRepo
     {
         private string _inputFileName;
 
@@ -18,7 +20,10 @@ namespace PayslipApp.Repository
 
         public IEnumerable<EmployeeDetailModel> ReadAllEmployeeDetails()
         {
-            throw new NotImplementedException();
+            var csv = new CsvReader(File.OpenText(_inputFileName));
+            csv.Configuration.RegisterClassMap(new EmployeeDetailModelMap());
+            var records = csv.GetRecords<EmployeeDetailModel>();
+            return records;
         }
     }
 }

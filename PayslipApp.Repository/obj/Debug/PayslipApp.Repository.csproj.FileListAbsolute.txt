@@ -3,3 +3,10 @@ C:\GitHub\Payslip\PayslipApp\PayslipApp.Repository\bin\Debug\PayslipApp.Reposito
 C:\GitHub\Payslip\PayslipApp\PayslipApp.Repository\obj\Debug\PayslipApp.Repository.csprojResolveAssemblyReference.cache
 C:\GitHub\Payslip\PayslipApp\PayslipApp.Repository\obj\Debug\PayslipApp.Repository.dll
 C:\GitHub\Payslip\PayslipApp\PayslipApp.Repository\obj\Debug\PayslipApp.Repository.pdb
+C:\GitHub\Payslip\Payslip\PayslipApp.Repository\bin\Debug\PayslipApp.Repository.dll
+C:\GitHub\Payslip\Payslip\PayslipApp.Repository\bin\Debug\PayslipApp.Repository.pdb
+C:\GitHub\Payslip\Payslip\PayslipApp.Repository\obj\Debug\PayslipApp.Repository.csprojResolveAssemblyReference.cache
+C:\GitHub\Payslip\Payslip\PayslipApp.Repository\obj\Debug\PayslipApp.Repository.dll
+C:\GitHub\Payslip\Payslip\PayslipApp.Repository\obj\Debug\PayslipApp.Repository.pdb
+C:\GitHub\Payslip\Payslip\PayslipApp.Repository\bin\Debug\CsvHelper.dll
+C:\GitHub\Payslip\Payslip\PayslipApp.Repository\bin\Debug\CsvHelper.xml

@@ -10,3 +10,17 @@ C:\GitHub\Payslip\PayslipApp\PayslipApp.ConsoleApp\obj\Debug\PayslipApp.ConsoleA
 C:\GitHub\Payslip\PayslipApp\PayslipApp.ConsoleApp\obj\Debug\PayslipApp.ConsoleApp.pdb
 C:\GitHub\Payslip\PayslipApp\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.Repository.dll
 C:\GitHub\Payslip\PayslipApp\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.Repository.pdb
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.ConsoleApp.exe.config
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\obj\Debug\PayslipApp.ConsoleApp.exe
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\obj\Debug\PayslipApp.ConsoleApp.pdb
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.ConsoleApp.exe
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.ConsoleApp.pdb
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.Repository.dll
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.Service.dll
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.ViewModel.dll
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.Repository.pdb
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.Service.pdb
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\PayslipApp.ViewModel.pdb
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\obj\Debug\PayslipApp.ConsoleApp.csprojResolveAssemblyReference.cache
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\CsvHelper.dll
+C:\GitHub\Payslip\Payslip\PayslipApp.ConsoleApp\bin\Debug\CsvHelper.xml
