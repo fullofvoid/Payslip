@@ -18,3 +18,4 @@ Running the app
 
 Unit tests available at PayslipApp.Service.Test
 
+Enjoy! :) 
